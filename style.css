@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    background-color: #0f0f0fd6;
+}
+.search{
+    height: 3rem;
+    background-color: #fafafa;
+    /* width: 15rem; */
+    border-radius: 8px;
+    border: 0px black;
+    padding-left: 10px;
+    border: 3px solid #0f0f0f;
+    box-shadow: 4px 4px #fcbc1b;
+    width: 240px;
+}
+.magnifyButton{
+    margin-left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: 0px black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    margin-top: 3rem
+}
+
+.image{
+    width: 270px;
+    height: 200px;
+    border-radius: 8px;
+    border: 3px solid orange;
+}
